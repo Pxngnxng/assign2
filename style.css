@@ -1,0 +1,44 @@
+html,body{
+    margin: 0;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all div {
+    width: 1000px;
+}
+
+.head {
+    background-color: blue;
+    height: 100px;
+    text-align: center;
+}
+
+.nav {
+    background-color: violet;
+    height: 50px;
+    text-align: center;
+}
+
+.main {
+    background-color: rgb(185, 185, 185);
+    height: 540px;
+    padding: 5px;
+}
+
+.foot {
+    background-color: red;
+    height: 50px;
+    text-align: center;
+}
+
+
+.head,.nav,.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
